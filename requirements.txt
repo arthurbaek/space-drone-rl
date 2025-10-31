@@ -1,5 +1,0 @@
-gym>=0.17,<0.20
-numpy
-pyglet
-stable-baselines3==1.3.0
-tensorboard
