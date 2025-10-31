@@ -1,4 +1,4 @@
-# Mars Lander with Reinforcement Learning
+# RL applied to space exploration simulation
 
 Environment for landing a rover on Mars. 
 
