@@ -4,16 +4,9 @@ Environment for landing a rover on Mars.
 
 https://user-images.githubusercontent.com/17803473/159241507-2fe92a89-91c3-4f3e-aa34-8d2da1f6e567.mov
 
-Read the game [instructions on CodinGame](https://www.codingame.com/multiplayer/optimization/mars-lander).
-
-A complete write-up of this project is available on my blog:
-[antoinebrl.github.io/blog/rl-mars-lander/](https://antoinebrl.github.io/blog/rl-mars-lander/)
-
 # Usage
 
-## Play the game yourself
-
-You think the game is easy? Try it yourself!
+Initialize with
 
 ```shell
 python play.py
@@ -41,15 +34,6 @@ Once you have trained an agent you can see how it behaves.
 
 ```shell
 python enjoy.py logs/20220203-015918
-```
-
-## Export
-
-Use the command below to generate a self-contained code made of pure python and numpy.
-This is key to submit a solution to CodinGame. The generated code will be placed under `exported/`.
-
-```shell
-python export.py logs/20220203-015918
 ```
 
 # Training
